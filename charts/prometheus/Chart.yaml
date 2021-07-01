@@ -27,5 +27,5 @@ type: application
 dependencies:
   - name: kube-state-metrics
     version: "3.1.*"
-    repository: https://prometheus-community.github.io/helm-charts
+    repository: https://andycockers.github.io/helm-charts-1
     condition: kubeStateMetrics.enabled
